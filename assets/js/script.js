@@ -12,7 +12,7 @@ $("#refreshBtn").click(function (event){
 
 // Compare time block to current time
 var currentHour = moment().hour();
-for (var i = 9; i < 17; i++) {
+for (var i = 9; i < 18; i++) {
     if (i < currentHour) {
         document.getElementById(i.toString()).classList.add('past');
     } else if (i === currentHour) {
